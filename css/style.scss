@@ -1,0 +1,9 @@
+#about{
+
+  height: 750px;
+
+  @media #{$large-and-up}
+
+
+    background-color: red;
+}

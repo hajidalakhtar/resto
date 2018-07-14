@@ -1,0 +1,68 @@
+nav{
+  z-index: 10;
+
+
+  padding: 0px 20px;
+  position: fixed;
+  background-color:rgba(0,0,0,0) ;
+
+}
+
+#header{
+  box-shadow: 1px 6px 10px black;
+  height: 702px;
+  width: auto;
+  background-image: url(../img/1.jpg);
+background-size:1350px 704px ;
+
+
+
+
+}
+#about{
+
+  height: 750px;
+
+}
+
+li:hover{
+  background-color: white;
+  color:black;
+}
+ul a:hover{
+  color:black;
+}
+#favorite{
+    height: 1510px;
+    margin-top:-40px;
+
+}
+#location{
+
+  height:1000px;
+}
+
+@media only screen and (max-width: 600px){
+
+  #about h2{
+  margin-left:-100px;
+  }
+  #about h5{
+  margin-left:-100px;
+  }
+  .rpimg{
+    margin-left:-100px;
+  }
+  .rpimguser{
+    width: 100px;
+
+
+  }
+  .rpfavorit{
+
+
+
+  }
+
+
+}
